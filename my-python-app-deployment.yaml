@@ -14,7 +14,7 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - image: harbor.bartlab.xyz/tbs/my-python-app:latest
+      - image: harbor.bartlab.xyz/tbs/test-app:latest
         name: my-python-app
         ports:
         - containerPort: 80
